@@ -1,4 +1,6 @@
 # MiniProject
+
+
 Unfortunately, the project is not fully deployed. There are some problems with the connectivity inside Kubernetes. 
 The only working component inside the Kubernetes is the sa_frontend using this URL: http://34.69.3.165/
 The following URLs are the docker images I pushed to the Docker hub:
@@ -8,7 +10,7 @@ The following URLs are the docker images I pushed to the Docker hub:
 
 
 
-In order to complete this project, I have tied several deployment settings,
+In order to complete this project, I have tried several deployment settings,
 1. deploying and exposing using the YAML files that GKE creates.
 2. deploying and exposing using the YAML files that GKE creates with modifying them to resembles what they have in k8s-mastery.
-3. deploying and exposing using the YAML files that are in the GitHub repository https://github.com/rinormaloku/k8s-mastery/tree/master/resource-manifests.
+3. deploying and exposing using the YAML files that are in the GitHub repository https://github.com/rinormaloku/k8s-mastery/tree/master/resource-manifests using the Kubernetes command shell.
